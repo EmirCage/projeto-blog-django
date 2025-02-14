@@ -51,7 +51,7 @@ class Page(models.Model):
 
     is_published = models.BooleanField(
         default=False,
-        hel_text=(
+        help_text=(
             'Este campo preciara estar marcado para a página'
             'ser exibidda publicamente'
         ),
